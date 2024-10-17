@@ -15,7 +15,7 @@ st.set_page_config(
 )
    
 
-st.title('Select a Model and collect your prediction')
+st.title('Select a Model and Predict the Future 🔮')
 
 
 @st.cache_resource(show_spinner='Loading prediction Models')
@@ -26,7 +26,7 @@ def load_adaboost():
 
 @st.cache_resource(show_spinner='Loading prediction Models')
 def load_logisticreg():
-    pipeline = joblib.load('./models/log_reg_82_model.pkl')
+    pipeline = joblib.load('./models/logisticregression.joblib')
     return pipeline
 
 
