@@ -119,7 +119,7 @@ if authentication_status:
 ''', unsafe_allow_html=True)
 
 
-    st.markdown('### HEY!!! DO NOT GO....WE LIKE HAVING YOU WITH US....SADFACE ')
+    st.markdown('### HEY!!! DO NOT GO....WE LIKE HAVING YOU WITH US....')
 
     authenticator.logout('Logout','main')
     
